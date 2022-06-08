@@ -19,7 +19,13 @@ public class GalleryFragment extends Fragment {
 
     private FragmentGalleryBinding binding;
 
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
 
+        super.onCreate(savedInstanceState);
+
+
+    }
 
     @Override
     public void onDestroyView() {

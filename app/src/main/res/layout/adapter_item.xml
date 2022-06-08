@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Название постановки"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:translationX="120px" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Жанр"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:translationX="115px" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Количество мест"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:translationX="115px" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:text="Купить билет"
+        android:translationX="115px" />
+
+</LinearLayout>
